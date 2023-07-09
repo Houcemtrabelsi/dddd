@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_acces",
+  "info": {
+    "displayName": "Acces"
+  },
+  "options": {},
+  "attributes": {
+    "Acces": {
+      "type": "enumeration",
+      "enum": [
+        "Ascenseur",
+        "Monter",
+        "Rez-de-chaussee"
+      ]
+    },
+    "Etage": {
+      "type": "string"
+    },
+    "Suivant": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    }
+  }
+}

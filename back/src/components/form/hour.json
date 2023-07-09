@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_hours",
+  "info": {
+    "displayName": "Hour"
+  },
+  "options": {},
+  "attributes": {
+    "icon_hour": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "placeholder_hour": {
+      "type": "string"
+    }
+  }
+}

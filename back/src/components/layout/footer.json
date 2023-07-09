@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Menu": {
+      "displayName": "Menu",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.menu"
+    },
+    "titleTouch": {
+      "type": "string"
+    },
+    "gps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.icon-title"
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.icon-title"
+    },
+    "Mail": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.icon-title"
+    },
+    "iconSocialMedia": {
+      "displayName": "SOCISLMEDIA",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.socislmedia"
+    },
+    "HEZLILOGO": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "copyright": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.copyright"
+    }
+  }
+}

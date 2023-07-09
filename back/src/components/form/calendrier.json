@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_calendriers",
+  "info": {
+    "displayName": "calendrier"
+  },
+  "options": {},
+  "attributes": {
+    "calender_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "placeholder_calender": {
+      "type": "string"
+    }
+  }
+}

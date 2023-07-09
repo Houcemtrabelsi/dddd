@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_compagnies",
+  "info": {
+    "displayName": "compagnie"
+  },
+  "options": {},
+  "attributes": {
+    "CallToAction": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

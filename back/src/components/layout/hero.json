@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_layout_heroes",
+  "info": {
+    "displayName": "hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "callToAction": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "button": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.link"
+    },
+    "quote": {
+      "type": "richtext"
+    },
+    "Phone": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    },
+    "iconHero": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_layout_feed_backs",
+  "info": {
+    "displayName": "FeedBack"
+  },
+  "options": {},
+  "attributes": {
+    "Background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Quote": {
+      "type": "richtext"
+    },
+    "imgClient": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "NomClient": {
+      "type": "string"
+    }
+  }
+}

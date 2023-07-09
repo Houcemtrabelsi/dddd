@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_bulletins",
+  "info": {
+    "displayName": "bulletin",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Descreption": {
+      "type": "string"
+    }
+  }
+}

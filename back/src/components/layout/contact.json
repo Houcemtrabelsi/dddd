@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_layout_contacts",
+  "info": {
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "Adresse": {
+      "displayName": "iconTitle",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.icon-title"
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.icon-title"
+    },
+    "mail": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.icon-title"
+    }
+  }
+}

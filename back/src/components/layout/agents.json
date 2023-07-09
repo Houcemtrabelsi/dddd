@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_layout_agents",
+  "info": {
+    "displayName": "Agents",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "Agent1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.agent"
+    },
+    "Agent2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.agent"
+    },
+    "Agent3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.agent"
+    },
+    "Agent4": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.agent"
+    }
+  }
+}

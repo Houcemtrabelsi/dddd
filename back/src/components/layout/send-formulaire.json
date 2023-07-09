@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_layout_send_formulaires",
+  "info": {
+    "displayName": "SendFormulaire"
+  },
+  "options": {},
+  "attributes": {
+    "NomEtPrenom": {
+      "type": "string"
+    },
+    "NumPhone": {
+      "type": "string"
+    },
+    "AdresseEmail": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "richtext"
+    },
+    "btn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    }
+  }
+}

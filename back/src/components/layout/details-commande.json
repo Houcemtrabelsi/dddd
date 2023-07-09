@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_layout_details_commandes",
+  "info": {
+    "displayName": "Details-commande",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Emplacement": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "ramassage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "depot": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "MesArticles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "Acces": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "Suivant": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    }
+  }
+}

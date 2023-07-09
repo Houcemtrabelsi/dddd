@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_buttons",
+  "info": {
+    "displayName": "button"
+  },
+  "options": {},
+  "attributes": {
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "PRIMARY",
+        "SECONDARY",
+        "ERROR",
+        "SUCCESS",
+        "WARNING"
+      ],
+      "default": "PRIMARY"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

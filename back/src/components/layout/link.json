@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_layout_links",
+  "info": {
+    "displayName": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "Btnn": {
+      "type": "string"
+    }
+  }
+}

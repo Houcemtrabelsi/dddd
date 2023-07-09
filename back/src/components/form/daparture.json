@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_dapartures",
+  "info": {
+    "displayName": "daparture"
+  },
+  "options": {},
+  "attributes": {
+    "icon_form": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "departure_input": {
+      "type": "string"
+    }
+  }
+}

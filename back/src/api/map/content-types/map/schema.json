@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "maps",
+  "info": {
+    "singularName": "map",
+    "pluralName": "maps",
+    "displayName": "map",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "departure": {
+      "displayName": "daparture",
+      "type": "component",
+      "repeatable": false,
+      "component": "form.daparture"
+    },
+    "delivery": {
+      "displayName": "delivery",
+      "type": "component",
+      "repeatable": false,
+      "component": "form.delivery"
+    },
+    "calendrier": {
+      "displayName": "calendrier",
+      "type": "component",
+      "repeatable": false,
+      "component": "form.calendrier"
+    },
+    "hour": {
+      "displayName": "Hour",
+      "type": "component",
+      "repeatable": false,
+      "component": "form.hour"
+    },
+    "minute": {
+      "displayName": "Minute",
+      "type": "component",
+      "repeatable": false,
+      "component": "form.minute"
+    },
+    "btn_form": {
+      "type": "component",
+      "repeatable": true,
+      "component": "btn.btn-component"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_layout_formulaires",
+  "info": {
+    "displayName": "Formulaire",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "depart": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.inputt"
+    },
+    "arrive": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.inputt"
+    },
+    "day": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.inputt"
+    },
+    "hour": {
+      "type": "string",
+      "default": "Hour",
+      "required": false
+    },
+    "minute": {
+      "type": "string",
+      "default": "Minute"
+    },
+    "EstimationBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.link"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_layout_steps",
+  "info": {
+    "displayName": "steps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "soustitle": {
+      "type": "string"
+    },
+    "commande": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "livrer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "ramasser": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "beHappy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "Suivre": {
+      "displayName": "Suivi",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.suivi"
+    }
+  }
+}

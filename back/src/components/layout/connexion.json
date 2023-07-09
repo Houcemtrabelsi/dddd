@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_layout_connexion_s",
+  "info": {
+    "displayName": "connexion "
+  },
+  "options": {},
+  "attributes": {
+    "client": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "connexion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    },
+    "qst": {
+      "type": "string"
+    },
+    "inscrire": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_articles",
+  "info": {
+    "displayName": "Articles"
+  },
+  "options": {},
+  "attributes": {
+    "Rechercher": {
+      "type": "string"
+    },
+    "Add": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    },
+    "Reinitialiser": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    },
+    "Vehicule": {
+      "type": "string"
+    }
+  }
+}

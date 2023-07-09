@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_copyrights",
+  "info": {
+    "displayName": "copyright"
+  },
+  "options": {},
+  "attributes": {
+    "CallToAction": {
+      "type": "string"
+    },
+    "Conditions": {
+      "type": "string"
+    },
+    "Politique": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.hero-about"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.contact"
+    },
+    "FormulaireMessage": {
+      "displayName": "SendFormulaire",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.send-formulaire"
+    },
+    "commencer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.commencer"
+    }
+  }
+}

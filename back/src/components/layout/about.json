@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_layout_abouts",
+  "info": {
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "propo": {
+      "type": "string"
+    }
+  }
+}

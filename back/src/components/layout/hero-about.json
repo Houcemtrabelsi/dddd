@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_layout_hero_abouts",
+  "info": {
+    "displayName": "HeroAbout"
+  },
+  "options": {},
+  "attributes": {
+    "Background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "CallToActin": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Btn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    },
+    "Phone": {
+      "displayName": "Phone",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.phone"
+    }
+  }
+}

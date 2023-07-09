@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_layout_maps",
+  "info": {
+    "displayName": "map"
+  },
+  "options": {},
+  "attributes": {
+    "coordonne": {
+      "type": "json"
+    }
+  }
+}

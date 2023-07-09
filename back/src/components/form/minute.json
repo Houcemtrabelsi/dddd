@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_minutes",
+  "info": {
+    "displayName": "Minute"
+  },
+  "options": {},
+  "attributes": {
+    "icon_minute": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "placeholder_minute": {
+      "type": "string"
+    }
+  }
+}

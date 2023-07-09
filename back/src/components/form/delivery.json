@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_deliveries",
+  "info": {
+    "displayName": "delivery"
+  },
+  "options": {},
+  "attributes": {
+    "icon_delivery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "delivery_input": {
+      "type": "string"
+    }
+  }
+}

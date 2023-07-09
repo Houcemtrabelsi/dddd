@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_commencers",
+  "info": {
+    "displayName": "Commencer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "descreption": {
+      "type": "string"
+    },
+    "btn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    }
+  }
+}

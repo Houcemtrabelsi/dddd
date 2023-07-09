@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_layout_suivis",
+  "info": {
+    "displayName": "Suivi"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "descripition": {
+      "type": "string"
+    },
+    "SousTitle": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

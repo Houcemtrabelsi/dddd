@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_global_navigations",
+  "info": {
+    "displayName": "Navigation"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.navigation-logo"
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.navigation-menu"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}

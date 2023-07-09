@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_layout_icon_titles",
+  "info": {
+    "displayName": "iconTitle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "details": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

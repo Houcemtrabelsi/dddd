@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_layout_socislmedias",
+  "info": {
+    "displayName": "SOCISLMEDIA"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Twitericon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "instagram": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

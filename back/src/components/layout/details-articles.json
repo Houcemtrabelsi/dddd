@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_layout_details_articles",
+  "info": {
+    "displayName": "details-articles"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "msg": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.inputt"
+    }
+  }
+}

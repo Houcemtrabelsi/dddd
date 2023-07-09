@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_agent",
+  "info": {
+    "displayName": "Agent"
+  },
+  "options": {},
+  "attributes": {
+    "ImageAgent": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "NameAgent": {
+      "type": "string"
+    },
+    "RoleAgent": {
+      "type": "string"
+    }
+  }
+}

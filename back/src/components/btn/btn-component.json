@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_btn_btn_components",
+  "info": {
+    "displayName": "btn_component"
+  },
+  "options": {},
+  "attributes": {
+    "link_btn": {
+      "type": "string"
+    },
+    "icon_btn": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text_link": {
+      "type": "string"
+    }
+  }
+}

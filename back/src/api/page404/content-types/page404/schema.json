@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "page404s",
+  "info": {
+    "singularName": "page404",
+    "pluralName": "page404s",
+    "displayName": "Page404"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "introuvable": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "btn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    }
+  }
+}

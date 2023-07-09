@@ -1,0 +1,66 @@
+{
+  "collectionName": "components_layout_services",
+  "info": {
+    "displayName": "service",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "sousTitle": {
+      "type": "string"
+    },
+    "descrption": {
+      "type": "string"
+    },
+    "Livraison": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "Mouvements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "Dechargement": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "mainoeuvre": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "DemenagementsAPP": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "demenagementBUR": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.details"
+    },
+    "partner": {
+      "displayName": "partner",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.partner"
+    },
+    "Bulletin": {
+      "displayName": "bulletin",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.bulletin"
+    },
+    "mail": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_link_connexions",
+  "info": {
+    "displayName": "connexion"
+  },
+  "options": {},
+  "attributes": {
+    "connexion": {
+      "type": "string"
+    },
+    "link_cnx": {
+      "type": "string"
+    }
+  }
+}

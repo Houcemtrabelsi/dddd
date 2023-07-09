@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_layout_detail_paiements",
+  "info": {
+    "displayName": "detailPaiement"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "qst": {
+      "type": "string"
+    },
+    "payment": {
+      "displayName": "paymentMethode",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.payment-methode"
+    },
+    "paiement": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    }
+  }
+}

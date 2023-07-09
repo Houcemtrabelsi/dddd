@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "estimations",
+  "info": {
+    "singularName": "estimation",
+    "pluralName": "estimations",
+    "displayName": "Estimation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Qst": {
+      "type": "string"
+    },
+    "Articles": {
+      "displayName": "Articles",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.articles"
+    },
+    "details": {
+      "displayName": "details-articles",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.details-articles"
+    },
+    "Acces": {
+      "displayName": "Acces",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.acces"
+    },
+    "Sommer": {
+      "type": "string"
+    },
+    "detailsCommande": {
+      "displayName": "Details-commande",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.details-commande"
+    },
+    "connexion": {
+      "displayName": "connexion ",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.connexion"
+    },
+    "entreprise": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.connexion"
+    },
+    "paiement": {
+      "displayName": "detailPaiement",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.detail-paiement"
+    }
+  }
+}
